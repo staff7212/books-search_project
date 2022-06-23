@@ -1,0 +1,53 @@
+
+$textColor: rgb(79, 79, 79);
+
+.search-panel {
+  padding: 20px 0;
+  background: rgb(239, 228, 239);
+  &__title {
+    text-align: center;
+    text-transform: uppercase;
+    color: $textColor
+  }
+  &__form {
+    position: relative;
+    margin: 20px auto;
+    width: 320px;
+  }
+  &__input {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 320px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid rgb(179, 179, 179);
+    color: $textColor
+  }
+  &__btn {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    right: 1px;
+    top: 1px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+  }
+  &__select-block {
+    margin: 0 auto;
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+  }
+  &__select {
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(179, 179, 179);
+    color: $textColor;
+  }
+}
+.label {
+  color: $textColor;
+}
